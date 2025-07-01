@@ -30,8 +30,8 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <Shield className="h-8 w-8 text-purple-400" />
-              <span className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-teal-400 bg-clip-text text-transparent">
+              <Shield className="h-8 w-8 text-rose-400" />
+              <span className="text-2xl font-bold bg-gradient-to-r from-rose-400 to-violet-400 bg-clip-text text-transparent">
                 Project Shakti
               </span>
             </div>
@@ -60,7 +60,7 @@ const Footer = () => {
                   <li key={link}>
                     <a
                       href="#"
-                      className="text-gray-300 hover:text-purple-400 transition-colors duration-200 text-sm"
+                      className="text-gray-300 hover:text-rose-400 transition-colors duration-200 text-sm"
                     >
                       {link}
                     </a>
@@ -73,9 +73,9 @@ const Footer = () => {
 
         {/* Privacy Notice */}
         <div className="border-t border-gray-800 mt-12 pt-8">
-          <div className="bg-gradient-to-r from-purple-900/20 to-teal-900/20 rounded-lg p-6 mb-8">
+          <div className="bg-gradient-to-r from-rose-900/20 to-violet-900/20 rounded-lg p-6 mb-8">
             <div className="flex items-start space-x-3">
-              <Shield className="h-6 w-6 text-purple-400 flex-shrink-0 mt-1" />
+              <Shield className="h-6 w-6 text-rose-400 flex-shrink-0 mt-1" />
               <div>
                 <h4 className="font-semibold text-white mb-2">Your Privacy & Safety Matter</h4>
                 <p className="text-gray-300 text-sm">
@@ -90,9 +90,9 @@ const Footer = () => {
             <div className="flex items-center space-x-4 text-sm text-gray-400">
               <span>© 2024 Project Shakti. All rights reserved.</span>
               <span>•</span>
-              <a href="#" className="hover:text-purple-400 transition-colors duration-200">Privacy Policy</a>
+              <a href="#" className="hover:text-rose-400 transition-colors duration-200">Privacy Policy</a>
               <span>•</span>
-              <a href="#" className="hover:text-purple-400 transition-colors duration-200">Terms of Service</a>
+              <a href="#" className="hover:text-rose-400 transition-colors duration-200">Terms of Service</a>
             </div>
             <div className="flex items-center space-x-2 text-sm text-gray-400">
               <Heart className="h-4 w-4 text-pink-400" />
